@@ -1,0 +1,17 @@
+{
+  "name": "Tool Shop Mini Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed --browser=firefox --spec cypress/e2e/signIn.cy.js",
+    "open": "cypress open",
+    "testall": "cypress run --headless --browser=firefox --spec cypress/e2e/** --reporter cypress-mochawesome-reporter"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
