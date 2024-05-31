@@ -3,8 +3,8 @@ describe('Sign In', () => {
         cy.visit('https://practicesoftwaretesting.com/#/');
         cy.get('[data-test="nav-sign-in"]').click();
         cy.get('h3').should('contain', "Login");
-        cy.get('[data-test="email"]').type("haganig369@neixos.com");
-        cy.get('[data-test="password"]').type("Test.321@");
+        cy.get('[data-test="email"]').type("orson.rafael@dockleafs.com");
+        cy.get('[data-test="password"]').type("Rasuk1996@");
         cy.get('[data-test="login-submit"]').click();
         cy.get('[data-test="nav-menu"]').should('contain', "TESTER TES");
     })
